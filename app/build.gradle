@@ -36,6 +36,8 @@ android {
         jvmTarget = '1.8'
     }
 }
+apply plugin: 'kotlin-kapt'
+
 def roomVersion = "2.3.0"
 
 dependencies {
@@ -47,6 +49,8 @@ dependencies {
 
     implementation("androidx.room:room-runtime:$roomVersion")
     annotationProcessor("androidx.room:room-compiler:$roomVersion")
+    implementation "androidx.room:room-ktx:$roomVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
