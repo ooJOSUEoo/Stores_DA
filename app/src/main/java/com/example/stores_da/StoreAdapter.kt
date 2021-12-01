@@ -25,6 +25,7 @@ class StoreAdapter(private var stores: MutableList<Store>, private  var listener
 
         with(holder){
             setListener(store)
+
             binding.tvName.text = store.name
         }
     }
