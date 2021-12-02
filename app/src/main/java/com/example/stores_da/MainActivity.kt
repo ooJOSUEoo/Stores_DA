@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         mBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mBinding.root)
 
-        mBinding.btnSave.setOnClickListener {
+        /*mBinding.btnSave.setOnClickListener {
             val store = StoreEntity(name = mBinding.etName.text.toString().trim())
 
             Thread{
@@ -27,9 +27,23 @@ class MainActivity : AppCompatActivity(), OnClickListener {
             }.start()
 
             mAdapter.add(store)
-        }
+        }*/
+
+        mBinding.fab.setOnClickListener { launchEditFragment() }
 
         setupRecyclerView()
+    }
+
+    private fun launchEditFragment() {
+        val fragment = EditStoreFragment()
+
+        val fraManager = supportFragmentManager
+        val fragmentTransaction = fraManager.beginTransaction()
+
+        fragmentTransaction.add(R.id.containerMain, fragment)
+        fragmentTransaction.commit()
+
+        mBinding.fab.hide()
     }
 
     private fun setupRecyclerView() {
