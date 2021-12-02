@@ -8,4 +8,5 @@
     <string name="helper_required">Requerido</string>
     <string name="hint_phone">Teléfono</string>
     <string name="hint_website">Url del sitio web</string>
+    <string name="hint_photo_url">Url de la imagen</string>
 </resources>
