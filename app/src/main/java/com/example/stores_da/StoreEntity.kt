@@ -8,4 +8,5 @@ data class StoreEntity(@PrimaryKey(autoGenerate = true) var id: Long = 0,
                        var name: String,
                        var phone: String = "",
                        var website: String = "",
+                       var photoUrl: String,
                        var isFavorite: Boolean = false)
