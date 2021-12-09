@@ -1,28 +1,34 @@
 <resources>
-    <string name="app_name">Tiendas</string>
-    <string name="description_img_photo">Imagen de la tienda</string>
-    <string name="description_store_add">Crear tienda</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hint_name">Nombre de la tienda</string>
-    <string name="helper_required">Requerido</string>
-    <string name="hint_phone">Teléfono</string>
-    <string name="hint_website">Url del sitio web</string>
-    <string name="hint_photo_url">Url de la imagen</string>
-    <string name="edit_store_title_add">Crear tienda</string>
-    <string name="menu_save">Save</string>
-    <string name="edit_store_message_save_success">Tienda agregada correctamente.</string>
-    <string name="arg_id">key_id</string>
-    <string name="edit_store_message_update_success">Tienda actualizada</string>
-    <string name="edit_store_message_valid">Revise los campos requeridos</string>
-    <string name="edit_store_title_edit">Editar tienda</string>
-    <string name="dialog_delete_title">¿Eliminar tienda?</string>
-    <string name="dialog_delete_confirm">Eliminar</string>
-    <string name="dialog_delete_cancel">Cancelar</string>
-    <string name="dialog_options_title">¿Qué desea hacer?</string>
-    <string name="main_error_no_website">Esta tienda no cuenta con un sitio web.</string>
-    <string name="main_error_no_resolve">No se encontró ninguna app compatible.</string>
+    <string name="app_name">Stores</string>
 
-    <string name="options_item_call">Llamar</string>
-    <string name="options_item_website">Ir al sitio web</string>
+    <string name="arg_id" translatable="false">key_id</string>
+
+    <string name="dialog_delete_title">¿Delete store?</string>
+    <string name="dialog_delete_confirm">Delete</string>
+    <string name="dialog_delete_cancel">Cancel</string>
+    <string name="dialog_options_title">¿What would you like to do?</string>
+
+    <string name="description_img_photo">Image of the store</string>
+    <string name="description_store_add">Insert store</string>
+
+    <string name="edit_store_title_edit">Update store.</string>
+    <string name="edit_store_message_update_success">The store is update.</string>
+    <string name="edit_store_message_valid">Review the required fields.</string>
+    <string name="edit_store_message_save_success">The store insert is success.</string>
+    <string name="edit_store_title_add">Insert store</string>
+
+    <string name="hint_name">Store name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_website">Url web site</string>
+    <string name="hint_photo_url">Url image</string>
+
+    <string name="helper_required">Require</string>
+
+    <string name="menu_save">Save</string>
+
+    <string name="main_error_no_website">This store don't have website.</string>
+    <string name="main_error_no_resolve">No compatible app found.</string>
+
+    <string name="options_item_call">To call</string>
+    <string name="options_item_website">Go to website</string>
 </resources>
