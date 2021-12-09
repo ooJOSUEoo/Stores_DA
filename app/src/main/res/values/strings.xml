@@ -26,7 +26,7 @@
 
     <string name="menu_save">Save</string>
 
-    <string name="main_error_no_website">This store don't have website.</string>
+    <string name="main_error_no_website">This store do not have website.</string>
     <string name="main_error_no_resolve">No compatible app found.</string>
 
     <string name="options_item_call">To call</string>
